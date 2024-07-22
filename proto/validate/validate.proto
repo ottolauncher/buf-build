@@ -15,8 +15,8 @@
 syntax = "proto3";
 
 package buf.validate;
-import "github.com/ottolauncher/buf-build/buf/validate/expression.proto";
-import "github.com/ottolauncher/buf-build/buf/validate/priv/private.proto";
+import "github.com/ottolauncher/buf-build/proto/validate/expression.proto";
+import "github.com/ottolauncher/buf-build/proto/validate/priv/private.proto";
 import "google/protobuf/descriptor.proto";
 import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";
